@@ -1,0 +1,236 @@
+@charset "UTF-8";
+body {
+  font-family: 'Noto Sans KR';
+}
+
+.movieList {
+  background-color: #F2F2F2;
+  width: 1060px;
+  padding: 39px 26px 29px 27px;
+  border: 2px solid #BDBDBD;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 8% auto;
+}
+
+.movieList_text {
+  margin: 0 0 36px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.movieCategory_nav {
+  width: 650px;
+  padding: 27px 0 28px;
+  margin: 0 auto;
+  border-top: 2px solid #BDBDBD;
+  text-align: center;
+}
+
+.movieCategory_text {
+  color: #828282;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+.movieCategory_text.ing {
+  color: #000;
+  font-weight: 900;
+}
+
+.movieCategory_text.soon {
+  margin: 0 60px;
+}
+
+.movie_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 23px;
+  background-color: #FFF;
+  width: 1003px;
+  padding: 24px 25px 28px;
+  border: 2px solid #BDBDBD;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.movie {
+  width: 220px;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 7px -3px black;
+          box-shadow: 0 0 7px -3px black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.movieInfo {
+  padding: 18px 19px 0;
+}
+
+.moviePoster {
+  width: 180px;
+  height: 250px;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.movieTitle_text {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+dl {
+  margin: 12px 0 17.5px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+dt {
+  float: left;
+  color: #828282;
+}
+
+dd {
+  -webkit-margin-start: 28px;
+          margin-inline-start: 28px;
+}
+
+.score {
+  float: right;
+  position: relative;
+}
+
+.score > dd::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  display: inline-block;
+  background: url("img/star.png") no-repeat;
+  background-size: 14px;
+  vertical-align: middle;
+}
+
+.movieBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1px;
+  position: relative;
+  padding: 0;
+  background-color: #F2F2F2;
+  border-top: 1px solid #BDBDBD;
+  border-radius: 0 0 10px 10px;
+}
+
+.movieBottom::before {
+  content: '';
+  position: absolute;
+  background-color: #BDBDBD;
+  width: 1px;
+  height: 100%;
+}
+
+.movieBottom > a {
+  padding: 9px 0 11px;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.preview_text {
+  padding-left: 16px;
+}
+
+.preview_text::before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  margin-right: 2px;
+  display: inline-block;
+  background: url("img/poster/아이콘_재생.png") no-repeat;
+  background-size: 14px;
+  vertical-align: -2px;
+}
+
+/* footer */
+footer {
+  background-color: #F2F2F2;
+  width: 100%;
+}
+
+.jungleSNS_div {
+  width: 1189px;
+  padding: 53px 0 42px;
+  margin: 0 auto;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.jungleSNS_div > strong {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.jungleSNS_div > a {
+  float: right;
+  margin-right: 22px;
+}
+
+.jungleSNS_div > a img {
+  width: 24px;
+  height: 24px;
+}
+
+.jungleSNS_div > .facebook {
+  margin-right: 0;
+}
+
+.companyInfo {
+  width: 1189px;
+  padding: 37px 0 57px 0;
+  margin: 0 auto;
+}
+
+.companyInfo > li {
+  float: left;
+  list-style: none;
+  margin-right: 10px;
+  color: #4F4F4F;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.companyInfo > li strong {
+  font-weight: 700;
+}
+
+.companyInfo > .floatRight {
+  float: right;
+  margin-right: 0;
+}
+/*# sourceMappingURL=style.css.map */

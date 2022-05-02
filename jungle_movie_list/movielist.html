@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>정글 시네마 영화 목록</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <article class="movieList">
         <h1 class="movieList_text">정글 시네마 영화 목록</h1>
-        <div class="movieCategory_div">
+        <nav class="movieCategory_nav">
             <a href="#" class="movieCategory_text ing">현재상영영화</a>
-            <a href="#" class="movieCategory_text soon">개봉예정영화</a><a href="#" class="movieCategory_text">박스오피스</a>
-        </div>
-        <article class="movie_wrap">
+            <a href="#" class="movieCategory_text soon">개봉예정영화</a>
+            <a href="#" class="movieCategory_text">박스오피스</a>
+        </nav>
+        <div class="movie_wrap">
             <div class="movie">
                 <div class="movieInfo">
                     <img src="img/poster/포스터_위니브월드.png" alt class="moviePoster">
@@ -156,7 +157,6 @@
                     <a href="#" class="preview_text">예고편</a>
                 </div>
             </div>
-            </div>
             <div class="movie">
                 <div class="movieInfo">
                     <img src="img/poster/포스터_어쩌다밋업.png" alt class="moviePoster">
@@ -184,7 +184,6 @@
                     <a href="#" class="ticketing_text">예매하기</a>
                     <a href="#" class="preview_text">예고편</a>
                 </div>
-            </div>
             </div>
             <div class="movie">
                 <div class="movieInfo">
@@ -214,7 +213,6 @@
                     <a href="#" class="preview_text">예고편</a>
                 </div>
             </div>
-            </div>
             <div class="movie">
                 <div class="movieInfo">
                     <img src="img/poster/포스터_MBIT.png" alt class="moviePoster">
@@ -243,22 +241,22 @@
                     <a href="#" class="preview_text">예고편</a>
                 </div>
             </div>
-        </article>
+        </div>
     </article>
     <footer>
         <div class="jungleSNS_div">
             <strong>Jungle Cinema</strong>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
+            <a href="#" class="facebook"><img src="img/facebook.png" alt="facebook"></a>
+            <a href="#"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="#"><img src="img/twitter.png" alt="twitter"></a>
         </div>
         <ul class="companyInfo">
-            <li><strong>(주)정글 시네마</strong></li>
+            <li class="beforeExcept"><strong>(주)정글 시네마</strong></li>
             <li><strong>대표</strong> 라이언</li>
             <li><strong>사업자 번호</strong> 000-0000-0000</li>
             <li>광고 영화 및 비디오물 제작업</li>
             <li><strong>주소 </strong>서울특별시</li>
-            <li class="floatRight"><strong>© The Jungle</strong></li>
+            <li class="floatRight exceptBefore"><strong>© The Jungle</strong></li>
         </ul>
     </footer>
 </body>

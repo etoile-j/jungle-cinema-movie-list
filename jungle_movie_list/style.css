@@ -95,6 +95,7 @@ body {
   font-weight: 900;
   font-size: 16px;
   line-height: 23px;
+  margin: 11px 0;
 }
 
 dl {
@@ -112,6 +113,7 @@ dt {
 dd {
   -webkit-margin-start: 28px;
           margin-inline-start: 28px;
+  margin-bottom: 5px;
 }
 
 .score {
@@ -218,7 +220,6 @@ footer {
 .companyInfo > li {
   float: left;
   list-style: none;
-  margin-right: 10px;
   color: #4F4F4F;
   font-weight: 400;
   font-size: 14px;
@@ -231,6 +232,19 @@ footer {
 
 .companyInfo > .floatRight {
   float: right;
-  margin-right: 0;
+}
+
+.companyInfo > li::before {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  margin: 0 8px;
+  background-color: #4F4F4F;
+  vertical-align: -2px;
+}
+
+.companyInfo > .exceptBefore::before {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

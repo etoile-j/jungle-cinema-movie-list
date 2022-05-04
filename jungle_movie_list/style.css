@@ -244,7 +244,7 @@ footer {
   vertical-align: -2px;
 }
 
-.companyInfo > .exceptBefore::before {
+.companyInfo > .removeBefore::before {
   display: none;
 }
 /*# sourceMappingURL=style.css.map */
